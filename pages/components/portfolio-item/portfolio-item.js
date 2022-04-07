@@ -8,7 +8,7 @@ export default function PortfolioItem(props) {
   return (
     <Flex align='center' direction='column'  mt='5em' bg='rgba(0,0,0,0)' width='90vw' maxWidth='550px'  borderColor='white' borderWidth='3px'>
       <Box mt='3em'w='79%' display='block' >
-        <a href={props.link}><Image layout='responsive' src={props.source==="lyrasc" ? lyrasc : countsearchprev} /></a>
+        <a href={props.link}><Image layout='responsive' alt={props.alt} src={props.source==="lyrasc" ? lyrasc : countsearchprev} /></a>
       </Box>
       <Heading mt='.5em' fontFamily='Playfair Dislay' fontSize='2.5em' color='white' fontWeight='800'>
         {props.name}

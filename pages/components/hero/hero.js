@@ -26,12 +26,12 @@ export default function Hero() {
                 letterSpacing='.3em' 
                 color='white'>
                     <Box 
-                    top='15px'
-                    left='-18px'
+                    top='27px'
+                    left='-4px'
                     w='300px' 
                     h='12px' 
                     bg='#03254E' 
-                    position='absolute' 
+                    position='relative' 
                     zIndex='-1' />
                     web developer
                 </Heading>

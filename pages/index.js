@@ -30,6 +30,7 @@ export default function Home() {
         description='An interactive audio collage 
        built on community submitted content.  
        Built with the MERN stack using Tone.JS and Bootstrap'
+       alt='lyra screenshot'
         
        />
        
@@ -37,6 +38,7 @@ export default function Home() {
         description='A React app for sorting and searching through 
         the info provided by the REST Countries API'
         link='https://countrysearch-139e4.web.app/'
+        alt='country search screenshot'
         />
 
        <Footer />
