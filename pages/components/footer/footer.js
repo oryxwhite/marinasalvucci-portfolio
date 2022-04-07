@@ -15,16 +15,16 @@ export default function Footer() {
                 position='relative'
                 mt='4em' 
                 zIndex='5'
-                fontSize='1.2nem' 
+                fontSize='5vw' 
                 textAlign='center' 
                 fontFamily='Playfair Display' 
                 letterSpacing='.2em' 
                 color='white'>
                     <Box 
-                    top='16px'
+                    top='5vw'
                     left='-2px'
-                    w='300px' 
-                    h='8px' 
+                    w='90vw' 
+                    h='2.4vw' 
                     bg='#03254E' 
                     position='relative' 
                     zIndex='-1' />
