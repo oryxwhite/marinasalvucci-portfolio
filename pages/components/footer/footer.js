@@ -21,12 +21,12 @@ export default function Footer() {
                 letterSpacing='.2em' 
                 color='white'>
                     <Box 
-                    top='15px'
-                    left='-18px'
+                    top='26px'
+                    left='-2px'
                     w='450px' 
                     h='12px' 
                     bg='#03254E' 
-                    position='absolute' 
+                    position='relative' 
                     zIndex='-1' />
                     <Link href='mailto:msalvuccidev@gmail.com' isExternal> msalvuccidev@gmail.com</Link>
             </Heading>
