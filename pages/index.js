@@ -29,18 +29,19 @@ export default function Home() {
        <PortfolioItem name='Lyra' source={'lyrasc'}
         description='An interactive audio collage 
        built on community submitted content.  
-       Built with the MERN stack using Tone.JS and Bootstrap' />
+       Built with the MERN stack using Tone.JS and Bootstrap'
+        
+       />
        
        <PortfolioItem name='Country Search' src='countsearchprev'
         description='A React app for sorting and searching through 
-        the info provided by the REST Countries API' />
+        the info provided by the REST Countries API'
+        link='https://countrysearch-139e4.web.app/'
+        />
 
        <Footer />
        <LinkedIn  />
        <Github />
-      
-
-
        
       </main>
     </div>
