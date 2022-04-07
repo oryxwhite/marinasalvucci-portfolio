@@ -5,7 +5,7 @@ import marina from './marina.png'
 export default function Hero() {
     return(
         <Flex mt='4em' width='95%' align='center' justify='center' display='block'>
-            <Image  layout='responsive' src={marina} />
+            <Image  layout='responsive' src={marina} alt='marina-portrait' />
             <Heading 
             mt='1.2em' 
             fontSize='2.6em' 
