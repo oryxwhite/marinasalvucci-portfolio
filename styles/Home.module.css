@@ -1,6 +1,25 @@
  .main {
     background-color: #14000C;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.navbar {
+    justify-self: right;
+    align-self: right;
+}
+
+.slash {
+    justify-self: right;
+    align-self: right;
 }
