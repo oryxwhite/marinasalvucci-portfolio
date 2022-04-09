@@ -2,13 +2,14 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
-import Slash from './components/slash'
+import Slash from './components/slash/slash'
 import { Button } from '@chakra-ui/react'
 import SlashDark from './components/slashdark'
 import PortfolioItem from './components/portfolio-item/portfolio-item'
 import Footer from './components/footer/footer'
 import LinkedIn from './components/footer/linkedinicon'
 import Github from './components/footer/githubicon'
+import { motion } from "framer-motion"
 
 
 export default function Home() {

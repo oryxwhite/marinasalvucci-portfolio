@@ -1,5 +1,5 @@
 import { Flex, Heading } from '@chakra-ui/react'
-import Slash from '../slash'
+
 
 export default function Navbar() {
     return (
