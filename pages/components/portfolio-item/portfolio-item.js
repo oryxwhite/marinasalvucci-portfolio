@@ -6,16 +6,16 @@ import countsearchprev from './countsearchprev.png'
 export default function PortfolioItem(props) {
  
   return (
-    <Flex align='center' direction='column'  mt='5em' bg='rgba(0,0,0,0)' width='90vw' maxWidth='550px'  borderColor='white' borderWidth='3px'>
-      <Box mt='3em'w='79%' display='block' >
+    <div className="flex flex-col items-center mt-[5em] bg-black w-[90vw] max-w-[550px] border-[3px] border-white " >
+      <div className="mt-[3em] w-[79%] block" >
         <a href={props.link} target='_blank' rel="noreferrer"><Image layout='responsive' alt={props.alt} src={props.source==="lyrasc" ? lyrasc : countsearchprev} /></a>
-      </Box>
-      <Heading mt='.5em' fontFamily='Playfair Dislay' fontSize='2.5em' color='white' fontWeight='800'>
+      </div>
+      <h2 className="mt-6 text-[2em] text-center text-white font-[800]" >
         {props.name}
-      </Heading>
-      <Text mb='3em' mt='1.2em' align='center' fontFamily='Merriweather Sans' color='white' pl='3em' pr='3em'>
+      </h2>
+      <p className="mb-[3em] mt-4 center text-center font-sans  text-white px-12 " >
         {props.description}
-      </Text>
-    </Flex>
+      </p>
+    </div>
   )
 }

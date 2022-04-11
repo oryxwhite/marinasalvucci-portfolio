@@ -1,37 +1,35 @@
 import { Flex, Box, Heading, Link } from '@chakra-ui/react'
-import Image from 'next/image'
-import github from './github.png'
-import linkedin from './linkedin.png'
+
 
 
 export default function Footer() {
   return (
     <Flex mb='3em' align='center' justify='center'>
-        <Flex mb='4em' width='95%' align='center' justify='center' display='block'>
-            <Image src={linkedin} layout='responsive' />
-        </Flex>
 
+        <div className=' flex items-center justify-center' >
             <Heading 
                 position='relative'
                 mt='4em' 
                 zIndex='5'
-                fontSize='clamp(16px, 5vw, 30px)'
+                fontSize='1.5em'
                 textAlign='center' 
                 fontFamily='Playfair Display' 
                 letterSpacing='.2em' 
                 color='white'>
-                    <Box 
+            <Box 
                     maxW='530px'
-                    maxH='16px'
-                    top='clamp(16px, 5vw, 30px)'
-                    left='-2px'
-                    w='90vw' 
-                    h='2.4vw' 
+                    maxH='10px'
+                    mt='10vh'
+                    top='-77px'
+                    left='-26px'
+                    w='430px' 
+                    h='2.2vw' 
                     bg='#03254E' 
-                    position='relative' 
+                    position='absolute' 
                     zIndex='-1' />
-                    <Link href='mailto:msalvuccidev@gmail.com' isExternal> msalvuccidev@gmail.com</Link>
+                    <Link position='' top="0px" href='mailto:msalvuccidev@gmail.com' isExternal> msalvuccidev@gmail.com</Link>
             </Heading>
+        </div>
             
     </Flex>
   )

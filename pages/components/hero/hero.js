@@ -7,7 +7,7 @@ export default function Hero() {
     return(
         <div className='block mt-12 w-11/12 max-w-[670px] justify-center items-center'>
             <Image  layout='responsive' priority placeholder='blur'  src={marina} alt='marina-portrait' />
-            <h2 className='mt-[1.2em] text-center text-[2.6em] text-white tracking-[.3em]'>            
+            <h2 className='mt-[1.2em] text-center text-[2.6em] font-[800] text-white tracking-[.3em]'>            
                 Marina Salvucci
             </h2>
             <div className=' flex items-center justify-center' >
