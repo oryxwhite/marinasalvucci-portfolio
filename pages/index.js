@@ -32,7 +32,7 @@ export default function Home() {
        />
        
        <PortfolioItem name='Country Search' src='countsearchprev'
-        description={<div>A<strong> React </strong>app for sorting and searching through the info provided by the <a className=' text-red-400' href=' '>REST Countries API</a></div>}
+        description={<div>A<strong> React </strong>app for sorting and searching through the info provided by the <a className=' text-red-400' href=''>REST Countries API</a></div>}
         link='https://countrysearch-139e4.web.app/'
         alt='country search screenshot'
         />
