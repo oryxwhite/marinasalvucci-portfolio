@@ -2,10 +2,11 @@ import Image from 'next/image'
 import { Box, Flex, Heading } from '@chakra-ui/react'
 import marina from './marina.png'
 
+
 export default function Hero() {
     return(
         <Flex mt='4em' width='95%' align='center' justify='center' display='block' maxW='670'>
-            <Image  layout='responsive' src={marina} alt='marina-portrait' />
+            <Image  layout='responsive' priority placeholder='blur'  src={marina} alt='marina-portrait' />
             <Heading 
             mt='1.2em' 
             fontSize='2.6em' 

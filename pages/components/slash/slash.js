@@ -26,10 +26,10 @@ export default function Slash() {
         
         <motion.div className={styles.slashtwo}initial="initial"  variants={slashVariants} animate={isOn ? {rotate: '0deg'} : { right: '30px'}} style={slashVariants.styles} transition={{duration: .3}} dataison={isOn.toString()} />  
         
-		<motion.div className={styles.slashtwo}initial="initial"  variants={slashVariants} animate={isOn ? {left: '65.3vw', rotate: '0deg'} : { right: '42px'}} style={slashVariants.styles} transition={{duration: .3}} dataison={isOn.toString()} />
+		<motion.div className={styles.slashtwo}initial="initial"  variants={slashVariants} animate={isOn ? {left: 'clamp(65.3vw)', rotate: '0deg'} : { right: '42px'}} style={slashVariants.styles} transition={{duration: .3}} dataison={isOn.toString()} />
 
         
-        <motion.div className={styles.slashthree}initial="initial"  variants={slashVariants} animate={isOn ? {left: '46.4vw', rotate: '0deg'} : { right: '54px'}} style={slashVariants.styles} transition={{duration: .3}} dataison={isOn.toString()} />
+        <motion.div className={styles.slashthree}initial="initial"  variants={slashVariants} animate={isOn ? {left: '45.3vw', rotate: '0deg'} : { right: '54px'}} style={slashVariants.styles} transition={{duration: .3}} dataison={isOn.toString()} />
 			
 			<div>
 			<motion.h1 className={styles.about}  initial={{opacity: 0}} transition={isOn ? {delay: .1, duration: .3} : {delay: 0, duration: .2}} animate={isOn ? { opacity: 1, } : {opacity: 0, x:100}}>About</motion.h1> 
