@@ -5,38 +5,17 @@ import marina from './marina.png'
 
 export default function Hero() {
     return(
-        <Flex mt='4em' width='95%' align='center' justify='center' display='block' maxW='670'>
+        <div className='block mt-12 w-11/12 max-w-[670px] justify-center items-center'>
             <Image  layout='responsive' priority placeholder='blur'  src={marina} alt='marina-portrait' />
-            <Heading 
-            mt='1.2em' 
-            fontSize='2.6em' 
-            textAlign='center' 
-            fontFamily='Playfair Display' 
-            letterSpacing='.3em' 
-            color='white'>            
+            <h2 className='mt-[1.2em] text-center text-[2.6em] text-white tracking-[.3em]'>            
                 Marina Salvucci
-            </Heading>
-            <Flex align='center' justify='center'>
-                <Heading 
-                position='relative'
-                mt='1.2em' 
-                zIndex='5'
-                fontSize='1.6em' 
-                textAlign='center' 
-                fontFamily='Playfair Display' 
-                letterSpacing='.3em' 
-                color='white'>
-                    <Box 
-                    top='27px'
-                    left='-4px'
-                    w='300px' 
-                    h='12px' 
-                    bg='#03254E' 
-                    position='relative' 
-                    zIndex='-1' />
+            </h2>
+            <div className=' flex items-center justify-center' >
+                <h2 className='relative items-center mt-5 z-10 text-[1.6em] text-center tracking-[.3em] text-white '>
+                <div className=' relative top-7 -left-1 w-[300px] h-3 bg-[#03254E] -z-10'/>
                     web developer
-                </Heading>
-            </Flex>
-        </Flex>
+                </h2>
+            </div>
+        </div>
     )
 }

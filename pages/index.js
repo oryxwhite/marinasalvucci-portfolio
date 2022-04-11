@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Navbar from './components/navbar/navbar'
+// import Navbar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
-import Slash from './components/slash/slash'
-import SlashDark from './components/slashdark'
-import PortfolioItem from './components/portfolio-item/portfolio-item'
-import Footer from './components/footer/footer'
-import LinkedIn from './components/footer/linkedinicon'
-import Github from './components/footer/githubicon'
+// import Slash from './components/slash/slash'
+// import SlashDark from './components/slashdark'
+// import PortfolioItem from './components/portfolio-item/portfolio-item'
+// import Footer from './components/footer/footer'
+// import LinkedIn from './components/footer/linkedinicon'
+// import Github from './components/footer/githubicon'
+import Navbar from './components/navbar/Navbar'
 
 export default function Home() {
   return (
@@ -17,11 +18,13 @@ export default function Home() {
         <meta name="Marina Salvucci" content="Marina Salvucci Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main className={styles.main}>
+			<Navbar />
+      <Hero />
         
-       <Navbar className={styles.navbar}/>
-       <Slash className={styles.slash}/>
+       {/* 
+       
        <Hero className={styles.hero} />
        <SlashDark />
        <PortfolioItem name='Lyra' source={'lyrasc'}
@@ -41,7 +44,7 @@ export default function Home() {
 
        <Footer />
        <LinkedIn  />
-       <Github />
+       <Github /> */}
        
       </main>
     </div>
