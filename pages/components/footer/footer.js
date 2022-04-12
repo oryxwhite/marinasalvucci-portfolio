@@ -4,30 +4,22 @@ import { Flex, Box, Heading, Link } from '@chakra-ui/react'
 
 export default function Footer() {
   return (
-    <Flex mb='3em' align='center' justify='center'>
+    <Flex mb='3em' align='center' justify='center' >
 
-        <div className=' flex items-center justify-center' >
+        <div className=' flex items-center justify-center xs:text-[1.2em]' >
             <Heading 
                 position='relative'
                 mt='4em' 
                 zIndex='5'
-                fontSize='1.2em'
+                fontSize='1em'
                 textAlign='center' 
                 fontFamily='Playfair Display' 
                 letterSpacing='.2em' 
                 color='white'>
-            <Box className=''
-                    maxW='530px'
-                    maxH='10px'
-                    mt='10vh'
-                    top='-77px'
-                    left='-23px'
-                    w='355px' 
-                    h='2.2vw' 
-                    bg='#03254E' 
-                    position='absolute' 
-                    zIndex='-1' />
-                    <Link position='' top="0px" href='mailto:msalvuccidev@gmail.com' isExternal> msalvuccidev@gmail.com</Link>
+            
+            <span className=' absolute mt-[9px] xs:mt-[11px] -left-[15px] w-72 xs:w-[340px] h-2 bg-[#03254E] -z-10' >  </span>
+            
+                    <Link className='' top="0px" href='mailto:msalvuccidev@gmail.com' isExternal> msalvuccidev@gmail.com</Link>
             </Heading>
         </div>
             
