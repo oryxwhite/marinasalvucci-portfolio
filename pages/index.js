@@ -8,7 +8,7 @@ import PortfolioItem from './components/portfolio-item/portfolio-item'
 import Footer from './components/footer/footer'
 import LinkedIn from './components/footer/linkedinicon'
 import Github from './components/footer/githubicon'
-import Navbar from './components/navbar/navbar'
+import Navbar from './components/navbar/Navbar'
 
 export default function Home() {
   return (
