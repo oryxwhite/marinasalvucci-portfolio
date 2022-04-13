@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .icon {
+    @apply w-12 h-12 
+  }
+}
+
 html,
 body {
   padding: 0;
