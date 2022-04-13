@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 import Hero from './components/hero/hero'
-
+import About from './components/about'
 import SlashDark from './components/slashdark'
 import PortfolioItem from './components/portfolio-item/portfolio-item'
 import Footer from './components/footer/footer'
@@ -22,7 +22,7 @@ export default function Home() {
       <main className={styles.main}>
 			<Navbar />
       <Hero />
-        
+      <About />  
 
        <SlashDark />
        <PortfolioItem name='Lyra' source={'lyrasc'}

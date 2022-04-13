@@ -4,7 +4,7 @@ import { Flex, Box, Heading, Link } from '@chakra-ui/react'
 
 export default function Footer() {
   return (
-    <Flex mb='3em' align='center' justify='center' >
+    <Flex id='contact' mb='3em' align='center' justify='center' >
 
         <div className=' flex items-center justify-center xs:text-[1.2em]' >
             <Heading 
