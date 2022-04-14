@@ -3,8 +3,8 @@ import Link from "next/link"
 
 export default function About() {
     return (
-        <Flex id="about">
-        <Box className="flex flex-col justify-center items-center" mt='12em'>
+        <Flex id="about" mt='8em'>
+        <Box mt='4em' className="flex flex-col justify-center items-center" >
             <Box right="-25px" position='relative' bg='#565656' w='137px' h='5px' transform='rotate(42deg)' />
             <Box right='0px' position='relative' bg='#565656' w='137px' h='5px' transform='rotate(42deg)' />
             <Box  right='25px'bg='#565656' position='relative' w='137px' h='5px' transform='rotate(42deg)' />
