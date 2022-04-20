@@ -20,15 +20,15 @@ export default function About() {
             </div>
 
             <div className=" grid-flow-row grid-cols-4 grid-rows-2 gap-y-8 gap-x-8 grid mt-10 lg:mt-14 xl:mt-20 md:flex">
-                <img src='reactwhite.png' className="icon" />
-                <img src='nextjs.png' className="icon" />    
-                <img src='nodewhite.png' className="icon" />    
-                <img src='tailwindwhite.png' className="icon" />    
-                <img src='framer-motion.png' className="icon " />    
-                <img src='mongo.png' className="icon p-[2px]" />    
+                <img src='reactwhite.png' alt='react' className="icon" />
+                <img src='nextjs.png' alt='next js' className="icon" />    
+                <img src='nodewhite.png' alt='node js' className="icon" />    
+                <img src='tailwindwhite.png' alt='tailwind' className="icon" />    
+                <img src='framer-motion.png' alt='framer motion' className="icon " />    
+                <img src='mongo.png' alt='mogodb' className="icon p-[2px]" />    
                   
-                <img src='cmd.png' className="icon" />    
-                <img src='wordpress.png' className="icon " />    
+                <img src='cmd.png' alt='command line' className="icon" />    
+                <img src='wordpress.png' alt='wordpress' className="icon " />    
 
             </div>
 
