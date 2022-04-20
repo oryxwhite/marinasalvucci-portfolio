@@ -6,7 +6,9 @@ import Image from 'next/image'
 export default function Hero() {
     return(
         <div className='flex flex-col mt-12 xl:mt-28 w-11/12 max-w-[1000px] xl:space-x-32 xl:content-between  justify-center items-center xl:flex-row'>
-            <img  layout='responsive'  placeholder='blur'  src={"marina.png"} alt='marina-portrait' />
+            <div className={'image-container'}>
+                <Image width="670px" height='545px' src={"/marina.png"} alt='marina-portrait' />
+            </div>
             <div className='flex flex-col'>
                 <h2 className='mt-[1em] xl:mt-0 text-center text-[2.6em] font-[800] text-white tracking-[.3em] xl:tracking-[.2em] font-serif xl:text-8xl xl:leading-snug'>            
                     Marina Salvucci
