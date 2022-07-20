@@ -3,22 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
-
-  const useWindowDimensions = () => {
-    const hasWindow = typeof window !== "undefined"
-
-    function getWindowDimensions() {
-      const width = hasWindow ? window.innerWidth : null
-      const height = hasWindow ? window.innerHeight : null
-      return {
-        width,
-        height,
-      }}}
-
-  useEffect(() => {
-    console.log(useWindowDimensions) 
-  }, )
+  
 
   return (
   <nav onClick={() => setIsOpen(!isOpen)} className={`relative self-end`}>
