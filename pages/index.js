@@ -28,7 +28,7 @@ export default function Home() {
        <div className=' grid  auto-cols-auto grid-rows-2 grid-flow-row  lg:grid-flow-col flex-col xl:flex xl:flex-row xl:mx-10 lg:gap-8 xl:gap-auto'>
       <PortfolioItem name="Sessi Blanchard" src='/sessiwide.png' h='916px' w='1033px'
         description={<div> A personal site for a journalist.  Built with <strong>Next.js</strong> using <strong>Tailwind</strong> for styling, <strong>Framer Motion </strong>for animations, <strong>Stripe</strong> for payment processing, and <strong>headless WordPress</strong> for the blog. </div>} 
-        alt='sessi screenshot'
+        alt='sessi screenshot' link='https://sessi-blanchard.vercel.app'
         />
 
        <PortfolioItem name='Lyra' src='/lyrasc.png' h='501px' w='489px'
