@@ -11,7 +11,7 @@ export default function About() {
 
             <h2 className="xl:mb-8 text-white text-[48px] bottom-[44px] left-[6px] xl:-left-[2px] xl:bottom-[40px] relative font-serif font-[800] tracking-[3px] xl:text-6xl" fontWeight='600' fontSize='48px' bottom='40px' left='3px' position='relative' fontFamily='Playfair Display' color='white'> About </h2>
 
-            <div className="text-serif w-11/12 mt-[1em] lg:text-lg text-white text-center">
+            <div className="text-serif xl:w-6/12 lg:w-8/12 px-10 mt-[1em] lg:text-lg text-white text-center">
                <p> Hello! My name is <strong className="text-[#629add]">Marina</strong> </p>
                <p className="mt-4 xl:mt-8"> I love building elegant, responsive front ends with a focus on performance, SEO optimization, and accessibility.  </p>
                <p className="mt-4 xl:mt-8"> I’m interested in user interactivity, devloping design systems, web audio, and creative applications of web technology. </p>
