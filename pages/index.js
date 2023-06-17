@@ -38,7 +38,7 @@ export default function Home() {
                <ul>
                 <nr/>
                 <li className='mb-2'>
-                Custom google maps integration capable of displayingn tens of thousands of user submitted data points, with searching and filtering
+                Custom google maps integration capable of displaying tens of thousands of user submitted data points, with searching and filtering
 
                 </li>
                 <li className='mb-2'>
